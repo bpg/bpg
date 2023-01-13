@@ -1,5 +1,6 @@
-![BPG's GitHub stats](https://github-readme-stats.vercel.app/api?username=bpg&show_icons=true&theme=transparent&count_private=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=bpg&layout=compact&theme=transparent)
+[![](https://raw.githubusercontent.com/bpg/github-profile-summary-cards-example/master/profile-summary-card-output/nord_bright/0-profile-details.svg)](https://github.com/bpg/github-profile-summary-cards)
+[![](https://raw.githubusercontent.com/bpg/github-profile-summary-cards-example/master/profile-summary-card-output/nord_bright/1-repos-per-language.svg)](https://github.com/bpg/github-profile-summary-cards) [![](https://raw.githubusercontent.com/bpg/github-profile-summary-cards-example/master/profile-summary-card-output/nord_bright/2-most-commit-language.svg)](https://github.com/bpg/github-profile-summary-cards)
+[![](https://raw.githubusercontent.com/bpg/github-profile-summary-cards-example/master/profile-summary-card-output/nord_bright/3-stats.svg)](https://github.com/bpg/github-profile-summary-cards) [![](https://raw.githubusercontent.com/bpg/github-profile-summary-cards-example/master/profile-summary-card-output/nord_bright/4-productive-time.svg)](https://github.com/bpg/github-profile-summary-cards)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn--_.svg?style=social&logo=linkedin)](https://www.linkedin.com/in/pboldyrev)
 [![Mastodon](https://img.shields.io/mastodon/follow/109359290334783032?style=social)](https://fosstodon.org/@bpg)
