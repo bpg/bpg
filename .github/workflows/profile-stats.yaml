@@ -1,5 +1,6 @@
 name: Profile Summary Cards
 on:
+  push: {}
   schedule:
     - cron: "0 3 * * *"
   workflow_dispatch:
