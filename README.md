@@ -1,4 +1,3 @@
-[![wakatime](https://wakatime.com/badge/user/0d475ca0-4611-45c1-a9b9-0ad2031d6140.svg?style=plastic)](https://wakatime.com/@0d475ca0-4611-45c1-a9b9-0ad2031d6140)
 [![github](https://img.shields.io/github/followers/bpg?logo=github&style=plastic)](https://github.com/bpg?tab=followers)
 [![Buy Me A Coffee](https://img.shields.io/badge/-buy%20me%20a%20coffee-5F7FFF?logo=buymeacoffee&labelColor=gray&logoColor=FFDD00&style=plastic)](https://www.buymeacoffee.com/bpgca)
 
