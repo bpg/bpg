@@ -15,7 +15,6 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
-          config_display: columns
           plugin_languages: yes
           plugin_languages_indepth: yes
           commits_authoring: Pavel Boldyrev, bpg, 627562+bpg, 627562+bpg@users.noreply.github.com
@@ -28,4 +27,7 @@ jobs:
           plugin_followup: yes
           plugin_followup_indepth: yes
           plugin_achievements: yes
+          plugin_achievements_only: >-
+            polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
+            scripter, packager, explorer, infographile, manager
           plugin_achievements_display: compact
