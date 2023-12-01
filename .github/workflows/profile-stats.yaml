@@ -1,23 +1,17 @@
-name: Profile Summary Cards
+name: Metrics
 on:
-  push: {}
-  schedule:
-    - cron: "0 3 * * *"
+  # Schedule daily updates
+  schedule: [{cron: "0 0 * * *"}]
+  # (optional) Run workflow manually
   workflow_dispatch:
+  # (optional) Run workflow when pushing on master/main
+  push: {branches: ["master", "main"]}
 jobs:
-  build:
+  github-metrics:
     runs-on: ubuntu-latest
-    name: generate-github-profile-summary-cards
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v3
-      - uses: vn7n24fzkq/github-profile-summary-cards@release
-        env:
-          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+      - uses: lowlighter/metrics@latest
         with:
-          USERNAME: ${{ github.repository_owner }}
-          # BRANCH_NAME is optional, default to main, branch name to push cards
-          BRANCH_NAME: "main"
-          # UTC_OFFSET is optional, default to zero
-          UTC_OFFSET: -4
-          # EXCLUDE is an optional comma separated list of languages to exclude, defaults to ""
-          EXCLUDE: ""
+          token: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
