@@ -26,11 +26,6 @@ jobs:
           config_timezone: America/Toronto
           plugin_followup: yes
           plugin_followup_indepth: yes
-          plugin_achievements: yes
-          plugin_achievements_only: >-
-            polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
-            scripter, packager, explorer, infographile, manager
-          plugin_achievements_display: compact
           plugin_sponsors: yes
           plugin_sponsors_sections: goal, list
           plugin_sponsors_past: yes
